@@ -1,0 +1,24 @@
+{
+  "name": "imageoptimizer",
+  "version": "1.0.0",
+  "description": "Creando un optimizador de imagenes con Node.js y el paquete Sharp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "auto": "node app.js -y"
+  },
+  "keywords": [],
+  "author": "Gery A. Pineda (gpinedaoviedo@gmail.com)",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "fs-extra": "^11.3.3",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
