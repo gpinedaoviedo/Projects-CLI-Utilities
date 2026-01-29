@@ -33,9 +33,8 @@ A robust Command Line Interface (CLI) tool built with **Node.js** to optimize, r
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/gpinedaoviedo/image-optimizer-cli.git]
-   (https://github.com/gpinedaoviedo/image-optimizer-cli.git)
-   cd image-optimizer-cli
+   git clone [https://github.com/gpinedaoviedo/Projects-CLI-Utilities.git](https://github.com/gpinedaoviedo/Projects-CLI-Utilities.git)
+   cd imageOptimizer
 
 2. **Install Dependencies**:
 
