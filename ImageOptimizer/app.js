@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import fse from 'fs-extra';
 import sharp from 'sharp';
 import chalk from 'chalk';
@@ -93,7 +94,7 @@ const optimizeImages = async () => {
 
             // Optimize and save image
             await sharp(inputFilePath)
-                .resize(800)
+                .resize(1920, 1080, { fit: 'inside'})
                 .toFormat(finalExtension, { quality: 80})
                 .toFile(outputFilePath);
             

@@ -1,8 +1,12 @@
 {
-  "name": "imageoptimizer",
+  "name": "gp-image-optimizer-tool",
   "version": "1.0.0",
-  "description": "Creando un optimizador de imagenes con Node.js y el paquete Sharp",
+  "description": "CLI tool to optimize images in a specified folder using Sharp Library.",
   "main": "app.js",
+  "bin": {
+    "optimize-img": "./app.js"
+  },
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
