@@ -94,7 +94,7 @@ const optimizeImages = async () => {
 
             // Optimize and save image
             await sharp(inputFilePath)
-                .resize(1920, 1080, { fit: 'inside'})
+                .resize(1920, 1080, { fit: 'inside'}) //Full HD max size, maintaining aspect ratio
                 .toFormat(finalExtension, { quality: 80})
                 .toFile(outputFilePath);
             
