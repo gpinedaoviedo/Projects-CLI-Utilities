@@ -19,31 +19,33 @@ A lightweight and powerful Command Line Interface (CLI) tool built with **Node.j
    git clone [git clone https://github.com/gpinedaoviedo/Projects-CLI-Utilities.git](https://github.com/gpinedaoviedo/Projects-CLI-Utilities.git)
    cd Projects-CLI-Utilities/WeatherApp
 
-Install dependencies:
-
+2. **Install dependencies:**
+```bash
 npm install
+```
 
-Configure environment variables:Create a .env file in the root directory and add your credentials:
+3. **Configure environment variables:**
+Create a .env file in the root directory and add your credentials:
 
 WEATHER_API_KEY=your_openweathermap_api_key
 WEATHER_API_URL=[https://api.openweathermap.org/data/2.5/weather](https://api.openweathermap.org/data/2.5/weather)
 
 🛠️ UsageThe tool is designed to be intuitive. Note: Always use quotes for cities with names consisting of more than one word.
 
-Core Commands
-Action,Command
-Get Weather,"npm start -c ""(city_name)"""
-Verbose Mode,"npm start -c ""(city_name)"" -v"
-Help/Manual,npm start (Shows instructions if city is missing)
+4. **Core Commands**
+Action         Command
+Get Weather:   npm start -c ""(city_name)""
+Verbose Mode:  npm start -c ""(city_name)"" -v
+Help/Manual,   npm start (Shows instructions if city is missing)
 
 Examples
-# Simple city
+## Simple city
 npm start -c "London"
 
-# Multi-word city (requires quotes)
+## Multi-word city (requires quotes)
 npm start -c "San Francisco"
 
-# Using full flag with verbose mode
+## Using full flag with verbose mode
 npm start --city "Tokyo" -v
 
 📦 Architecture & Dependencies
