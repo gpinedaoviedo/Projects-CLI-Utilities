@@ -33,10 +33,10 @@ WEATHER_API_URL=[https://api.openweathermap.org/data/2.5/weather](https://api.op
 🛠️ UsageThe tool is designed to be intuitive. Note: Always use quotes for cities with names consisting of more than one word.
 
 4. **Core Commands**
-Action         Command
-Get Weather:   npm start -c ""(city_name)""
-Verbose Mode:  npm start -c ""(city_name)"" -v
-Help/Manual,   npm start (Shows instructions if city is missing)
+
+Action: Get Weather, Command: npm start -c ""(city_name)""
+Action: Verbose Mode, Command npm start -c ""(city_name)"" -v
+Action: Help/Manual, Command npm start (Shows instructions if city is missing)
 
 Examples
 ## Simple city
