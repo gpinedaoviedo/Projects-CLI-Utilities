@@ -34,9 +34,9 @@ WEATHER_API_URL=[https://api.openweathermap.org/data/2.5/weather](https://api.op
 
 4. **Core Commands**
 
-Action: Get Weather, Command: npm start -c ""(city_name)""
+Action: Get Weather, Command: npm start -c "(city_name)"
 
-Action: Verbose Mode, Command npm start -c ""(city_name)"" -v
+Action: Verbose Mode, Command npm start -c "(city_name)" -v
 
 Action: Help/Manual, Command npm start (Shows instructions if city is missing)
 
