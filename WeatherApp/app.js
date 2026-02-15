@@ -26,7 +26,7 @@ function commandArgs() {
         }
     } catch (error) {
         console.error(`Error: ${error.message}.`);
-        console.log(chalk.yellow("\nUsage: npm start -- -c '(city_name)' or npm start -- --city '(city_name)'"));
+        console.log(chalk.yellow("\nUsage: npm start -c '(e.g. Roma, paris, texas)' or npm start --city '(e.g. Roma, paris, texas)'"));
         process.exit(1);
     }
 }
