@@ -46,7 +46,7 @@ const optimizeImages = async () => {
         await fse.ensureDir('./assets/optimized/');
         await fse.ensureFile(`${outputDir}/.gitkeep`); // File to keep the folder in git
         const files = await fse.readdir(inputDir);
-        const formatsRegex = /\.(jpeg|jpg|png|webp)$/i; // Regex for suportted formats
+        const formatsRegex = /\.(jpeg|jpg|png|webp|avif)$/i; // Regex for suportted formats
         const imageFiles = files.filter(file => file.match(formatsRegex)); //Filter only images files
 
         // Check if there are images files to process
